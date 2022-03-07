@@ -6,5 +6,5 @@ console.log(num1);
 --num1 // Incrementa antes de executar, apressadinho kkk
 console.log(num1);
 
-console.log(++num1 === num2--); // Retornara falso, pois o num2 está sendo incrementando após a verificação, Usar sempre incremento antes da variaveis 
+console.log(++num1 === num2--);  
 console.log(num1 === num2);

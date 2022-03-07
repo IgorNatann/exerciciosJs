@@ -1,5 +1,5 @@
-/* A variável VAR, deixa fazer declarar ela mais de uma vez, ocasionando erros.
-Já a LET acusa o não deixa gerar. Mais seguro */
+/* A variável VAR, deixa fazer a declaração mais de uma vez, ocasionando erros.
+Já a LET acusa e não deixa gerar. Mais seguro */
 
 var a = 3; // Declaração de variável !
 b = 40;
