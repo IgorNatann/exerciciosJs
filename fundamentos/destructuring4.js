@@ -4,7 +4,7 @@
 function rand([min = 0, max = 1000]) {
     if (min > max) [min, max] = [max, min]
     const valor = Math.random() * (max - min) + min
-    return Math.floor(valor)
+    return Math.floor(valor) // Floor faz com que o retorno apareceça de forma crescente
 };
 
 console.log(rand([50, 40]));

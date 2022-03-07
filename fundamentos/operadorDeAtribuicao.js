@@ -3,8 +3,8 @@
 const a = 7;
 let b = 3;
 
-// Atribuições resumidas/atalhos, fazendo uma operação aritmetica ao mesmo tempo fazendo a atribuição.
-// O Operador aritmetico sempre vem antes da atribuição
+// Atribuições resumidas/atalhos, fazendo uma operação aritmetica ao mesmo tempo fazendo que a atribuição.
+// O Operador aritmetico sempre vem antes da atribuição, ao lado esquerdo. exemplo " += "
 
 b += a; // b = b + a
 console.log(b);

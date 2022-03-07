@@ -6,7 +6,7 @@ const imprimirSoma = function  (a, b) {
 imprimirSoma (2, 3);
 
 // Armazenando uma função ARROW em uma variável 
-//  " => " Usado para substituir a palavra function chamdo de ARROW
+//  " => " Usado para substituir a palavra function chamando de ARROW
 const soma = (a , b) => {
     return a + b
 };

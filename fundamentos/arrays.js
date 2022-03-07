@@ -2,7 +2,7 @@
 // O que é uma Array?
 // Array é um Vetor! No Js se chama Array
 // É uma estrutura que permite armazenar mais de um tipo de dados dentro da mesma variável!
-// Sendo alocados esses dados e linha, dando ínicio do 0, 1, 2, 3 por diante.. 
+// Sendo alocados esses dados em linha, dando ínicio do 0, 1, 2, 3 por diante.. 
 // Para acessar essas infromações contidas na Array, baste setar a posição que está armazenada esse dado. exempo 0, 1, 2, 3 etc.
 // Sendo uma estrutura linear de armazenamentos.
 // Array pode contar String, Int.

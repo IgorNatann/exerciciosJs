@@ -1,6 +1,6 @@
-// Objeto nada mais é do que declaração continua dentro de chaves {}, conjunto de valores e cahves.
+// Objeto é definido por um conjuto de valores e chaves.
+// Objeto nada mais é do que declaração continua dentro de chaves {}, conjunto de valores e chaves.
 // Podendo ser uma String  ou INT
-
 
 // Um Objeto é declado por " {} "
 // Criação de objetos
@@ -12,7 +12,7 @@ prod1["Desconto Legal"] = 0.40; // Evitar atributos com espaço.
 
 console.log(prod1);
 
-// Forma mais correta de declaração de um objeto é dessa forma.
+// Forma mais correta de declarar um objeto é dessa forma.
 const prod2 = {
     nome: "Camiseta Polo",
     preco: 79.90

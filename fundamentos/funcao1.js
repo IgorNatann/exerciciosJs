@@ -8,7 +8,8 @@
 // podendo ser setado em diversos trexos do código para executar algo.
 
 
-// Função sem retorno
+// Definindo ação que a Function deve executar quando chamada!
+// Function sem return
 function imprimirSoma(a, b) {
     console.log(a + b)
 };

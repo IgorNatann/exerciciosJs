@@ -16,12 +16,12 @@ const pessoa = {
 
 // Exemplo de aplicação do operador destructuring
 // Setando os atributos que desejo desestrutura do objeto pessoa.
-const { nome, idade } = pessoa;
-// Consultando informações contidas nas variáveis desestruturadas.
+const { nome, idade } = pessoa; // Atributos que desejo desestruturar da constante Pessoa.
+// Consultando atributos contidos na constante desestruturadas.
 console.log(nome, idade);
 
-// Atribuindo outro nome de variável ao atribudo setado.
-// Podendo facilitar na compreensão ou na facilitade do retorno
+// Atribuindo outro nome de constante ao atribudo setado.
+// Podendo facilitar na compreensão ou na facilitade na busca.
 const { nome: n, idade: i } = pessoa;
 console.log(n, i);
 

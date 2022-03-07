@@ -1,7 +1,8 @@
 let a = 3;
 
-global.b = 123; // criando uma variável e atribuindo ela global
+global.b = 123; // criando uma variável e atribuindo ela globalmente
 
+// this refese a global, assim com widown !
 this.c = 456;
 this.d = false;
 this.e = "teste";

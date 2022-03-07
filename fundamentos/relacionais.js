@@ -3,8 +3,8 @@
 
 console.log("01)", "1" == 1); // Só está comparando o valor, e não consulta o tipo do dado, por isso retorna TRUE
 console.log("02)", "1" === 1); // Igualdade restrita, além do valor ter que ser igual, o tipo de dado também tem que ser igual para retornar TRUE!
-console.log("03)", "3" != 3); // sinal de diferença, como não compara o tipo de dado, retornara true q são iguais
-console.log("04)", "3" !== 3); // COnsulta restrita, retorna true, pq os tipo de dados são diferentes!
+console.log("03)", "3" != 3); // sinal de diferença, como não compara o tipo de dado, retornara true por que 3 é igual a 3 string.
+console.log("04)", "3" !== 3); // Cnnsulta restrita, retorna true, pq os tipo de dados são diferentes! faz consulta do tipo de dado.
 
 console.log("05)", 3 < 2);
 console.log("06)", 3 > 2);

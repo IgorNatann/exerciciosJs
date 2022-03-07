@@ -10,11 +10,11 @@ console.log(isAtivo);
 
 
 // Caracter " ! " é definição de negação. Transforma o conteudo contido na variável em FALSO!!!
-// Utilizando ele duas vezes, !! transforma e obriga o conteudo a ser tipo BOOLEAN, tornando possível a validação real se é um FALSE = 0 e TRUE = 1 .
+// Utilizando ele duas vezes, !! transforma e obriga o conteudo a ser tipo BOOLEAN, tornando possível a validação real se é um FALSE = 0 ou TRUE = 1 .
 // Utilizando apenas uma negação, ele faz a checagem correta, sendo 0 True e 1 False.
 isAtivo = 1;
 console.log(!isAtivo); // Retornara FALSE , por que apenas uma negação, transforma o dado em negativo.
-console.log(!!isAtivo); // Retornara TRUE, pois !! duas negações transforma o conteudo da variável em um tipo booelan, onde 0 = FALSE e 1 = TRUE .
+console.log(!!isAtivo); // Retornara TRUE, pois " !! " duas negações transforma o conteudo da variável em um tipo booelan, onde 0 = FALSE e 1 = TRUE .
 
 
 // Todos os números inteiros com exceção do 0 são e dão retorno de verdadeiros. 
@@ -45,7 +45,7 @@ console.log("pra finalizar....");
 console.log(!!("" || null || 0 || " ")); // Nessa validação OR, a expressão está contendo espaço vazio, como todas expressões precisam ser false para retornar false, irá retornar TRUE.
 
 // Checagem e substituição de frase caso a variável nome não sejá preenchida.
-// Como ela chega usando a expressão OR , nome não estabelecido, retorna como verdadeiro e faz a substituição do vazio por Desconhecido.
+// Como ela checa usando a expressão OR , nome não estabelecido, retorna como verdadeiro e faz a substituição do vazio por Desconhecido.
 let nome = "";
 console.log(nome || "Desconhecido");
 

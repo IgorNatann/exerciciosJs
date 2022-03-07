@@ -1,5 +1,5 @@
 // Bastante coisa é uma função.
-// Funções pode ter valores, definir para executar algo.
+// Funções pode ter valores, definições para executar algo.
 
 // Objeto é uma função!
 console.log(typeof Object);
