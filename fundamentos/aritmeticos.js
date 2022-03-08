@@ -5,6 +5,6 @@ const soma = a + b + c + d;
 const subtracao = d - b;
 const multiplicacao = a * b;
 const divisao = d / a;
-const modulo = a % 2; // Muito usado para descobrir se o número é impar ou par!
+const modulo = a % 2; // Muito usado para descobrir se o número é impar ou par!!
 
  console.log(soma, subtracao, multiplicacao, divisao, modulo);
