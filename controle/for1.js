@@ -5,6 +5,7 @@ while(contador <= 10) { // Expressão definindo até onde deve executar
     contador++ // Incremento 
 }
 
+// Estrutura de repetição com For, estabelecendo um limite!
 // For é o mais recomendando para esse cenário, onde será definido tudo resumidamente.
 // Definindo o contador, o parametro de até onde deve ser executado e o Incremento.
 for (let i = 1; i <= 10; i++) {

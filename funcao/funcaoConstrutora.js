@@ -22,7 +22,7 @@ const uno = new Carro
 uno.acelerar()
 console.log(uno.getVelocidadeAtual())
 
-// Sobrescrevendo elementos contido no Functiopn e transformando ferrari em um Objeto.
+// Sobrescrevendo elementos contido na Function e transformando ferrari em um Objeto.
 const ferrari = new Carro(350, 20)
 ferrari.acelerar()
 ferrari.acelerar()

@@ -5,7 +5,7 @@ Number.prototype.entre = function (inicio, fim) {
     return this >= inicio && this <= fim
 }
 
-// Parametrização dos parametros!
+// Parametrização!
 const imprimirResultado = function (nota) {
     if (nota.entre(9,10)) {
         console.log("Quadro de Honra")

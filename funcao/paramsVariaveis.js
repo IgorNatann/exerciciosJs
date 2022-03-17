@@ -1,7 +1,7 @@
 function soma () {
     let soma = 0
     // Usamos o IN para conseguir acessar os index dos arrays!
-    for (i in arguments) { // ARGUMENTS é um ARRAY interno que vai armazenar todos os parametros passados pelo úsuario. utilizado para fazer a checagem dos paramtros passados. 
+    for (i in arguments) { // ARGUMENTS é um ARRAY interno que vai armazenar todos os parametros passados pelo úsuario. utilizado para fazer a checagem dos parametros passados. 
         soma += arguments[i] // Acessando todos os elementros que foram passados pelo úsuario
     }
     return soma
