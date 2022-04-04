@@ -1,4 +1,4 @@
-function Carro (velocidadeMaxima = 200, delta = 5) {
+function carro (velocidadeMaxima = 200, delta = 5) {
     // Criando Atributo Privado que só está disponível para uso dentro da function
     let velocidadeAtual = 0
 
@@ -18,12 +18,12 @@ function Carro (velocidadeMaxima = 200, delta = 5) {
 }
 
 // Usando elementos já estabelecidos na function Carro
-const uno = new Carro
+const uno = new carro
 uno.acelerar()
 console.log(uno.getVelocidadeAtual())
 
 // Sobrescrevendo elementos contido na Function e transformando ferrari em um Objeto.
-const ferrari = new Carro(350, 20)
+const ferrari = new carro(350, 20)
 ferrari.acelerar()
 ferrari.acelerar()
 ferrari.acelerar()

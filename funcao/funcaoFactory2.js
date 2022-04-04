@@ -1,5 +1,5 @@
 // Function Factory nada mais é do que uma Function que retorna objetos, sendo montado a estrutura dentro da função e chamando-a para ser usada futuramente mais facil e fora do escopo.
-// Podendo usar  os parametros que estão disponiveis nessa function
+// Podendo usar os parametros que estão disponiveis nessa function
 
 // Estrutura Factory.
 function criarProduto(nome, preco) {

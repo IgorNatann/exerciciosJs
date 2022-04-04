@@ -1,12 +1,12 @@
 // Transformando uma Class em uma Function Construtora
-function Pessoa(nome) {
+function pessoa(nome) {
     this.nome = nome
 
     this.falar = function() {
         console.log(`Meu nome é ${this.nome}`)
     }
 }
-const p1 = new Pessoa ("Igor Natan")
+const p1 = new pessoa ("Igor Natan")
 p1.falar()
 
 /*

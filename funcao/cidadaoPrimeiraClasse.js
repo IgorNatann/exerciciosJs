@@ -2,10 +2,10 @@
 // Higher-order function
 
 // Criando uma function de forma literal 
- function fun1() { }
+ function fun1(param) { }
 
  // Armazenar uma function em uma VARIÁVEL
- const fun2 = function () { }
+ const fun2 = function (param) { }
 
  // Armezenando uma function em uma ARRAY
  // Não é a forma mais correta de se usar dentro de uma ARRAY!
