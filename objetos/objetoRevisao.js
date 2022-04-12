@@ -5,4 +5,4 @@ produto.nome= 'Cadeira' // Criando um objeto
 produto['marca do produto'] = 'Generica'
 produto.preco = 220
 
-console.log(produto)
+console.log(produto)s
