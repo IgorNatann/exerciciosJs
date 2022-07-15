@@ -5,6 +5,8 @@ console.log(escola.charAt(5));
 
 console.log(escola.charCodeAt(3)); // Function charCodeAt retorno o valor/código do caracter em unicode
 
+console.log(escola.indexOf('3')); // Busca e valida se tem algo na posicção 3
+
 console.log(escola.substring(1)); // Function substring pode ser parametrizado para não trazer o caracter de 1 posição.
 console.log(escola.substring(0,3)); // Definindo que ele deve começar apresentar da posição 0, sem apresentar a opção de parada, mas indo até ela.
 

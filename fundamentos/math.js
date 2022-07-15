@@ -5,4 +5,4 @@ const area = Math.PI * Math.pow(raio,2); // POW = pontencia, passando os element
 
 console.log(area);
 console.log(area.toFixed(2)); // toFixed é uma função usada para setar quantas casas decimais quero que apareça.
-console.log(typeof Math);
+//console.log(typeof Math);
