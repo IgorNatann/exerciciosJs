@@ -5,7 +5,7 @@
 // Sendo alocados esses dados em linha, dando ínicio do 0, 1, 2, 3 por diante.. 
 // Para acessar essas infromações contidas na Array, baste setar a posição que está armazenada esse dado. exempo 0, 1, 2, 3 etc.
 // Sendo uma estrutura linear de armazenamentos.
-// Array pode contar String, Int.
+// Array pode conter String, Int.
 
 // Exemplo básico de alocamento de inteiros dentro da const valores.
 const valores = [7.7, 8.9, 6.3, 9.2];
