@@ -8,4 +8,4 @@ var numero = 1;
 console.log("Fora = ", numero);
 
 // Está retornando duas vezes o 2, tando fora quanto dentro, porque é uma variável global!
-// Não respeita o escopo e faz alteração a qualquer momento.
+// Não respeita o escopo e faz alteração a qualquer momento. por esse motivo não usar!
