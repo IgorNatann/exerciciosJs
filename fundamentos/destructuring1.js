@@ -25,7 +25,7 @@ console.log(nome, idade);
 const { nome: n, idade: i } = pessoa;
 console.log(n, i);
 
-// Quando o atributo está conteudo outros atribudos, podemos acessa-lós dessa forma!
+// Quando o atributo está contendo outros atribudos, podemos acessa-lós dessa forma!
 // Primeiro setando o atributo principal e dentro da segunda chaves os atributos filhos!
 const { endereco: { logradouro, numero, cep } } = pessoa; // Setando para buscar dentro de endereço os outros atributos desejados.
 console.log(logradouro, numero, cep); // Setando atributo inesistente, retorna como não defido.

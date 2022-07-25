@@ -1,4 +1,24 @@
-// Exmplos de operadores lógicos aplicados
+/* Exmplos de operadores lógicos aplicados
+
+TABELA VERDADE
+
+V E V -> V
+V E F -> F
+F E ? -> F
+
+V OU ? -> V
+F OU V -> V
+F OU F -> F
+
+V XOR V -> F
+V XOR F -> V
+F XOR V -> V
+F XOR F -> F
+
+!V -> F
+!F -> V
+
+*/
 
 function compras (trabalho1, trabalho2) {
     const comprarSorvete = trabalho1 || trabalho2; // || = OU , será necessário apenas uma afirmação retornar TRUE e executar alguma ação.
@@ -14,3 +34,4 @@ console.log(compras(true, true));
 console.log(compras (true, false));
 console.log(compras (false, true));
 console.log(compras (false, false));
+
